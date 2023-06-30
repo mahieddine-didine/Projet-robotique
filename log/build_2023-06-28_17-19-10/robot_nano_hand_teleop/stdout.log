@@ -1,0 +1,41 @@
+running egg_info
+creating build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info
+writing build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/PKG-INFO
+writing dependency_links to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/dependency_links.txt
+writing entry points to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/entry_points.txt
+writing requirements to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/requires.txt
+writing top-level names to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/top_level.txt
+writing manifest file 'build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/SOURCES.txt'
+reading manifest file 'build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/SOURCES.txt'
+writing manifest file 'build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build/lib
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build/lib/robot_nano_hand_teleop
+copying robot_nano_hand_teleop/__init__.py -> /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build/lib/robot_nano_hand_teleop
+running install
+running install_lib
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop
+copying /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build/lib/robot_nano_hand_teleop/__init__.py -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop
+byte-compiling /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/ament_index
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/ament_index/resource_index
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/ament_index/resource_index/packages
+copying resource/robot_nano_hand_teleop -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+creating /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop/launch
+copying launch/robot-teleop.launch.py -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop/launch
+copying urdf/robot_nano_hand_teleop.urdf.xml -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_palm.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_finger1_link1.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_finger1_link4.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_finger1_link3.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_finger1_link2.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+copying models/robot_nano_hand_base.stl -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+running install_egg_info
+Copying build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info to /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing state_publisher script to /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/robot_nano_hand_teleop
+writing list of installed files to '/home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/install.log'

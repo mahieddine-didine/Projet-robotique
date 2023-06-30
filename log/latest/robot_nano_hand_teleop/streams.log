@@ -1,0 +1,24 @@
+[0.663s] Invoking command in '/home/didine/Bureau/projet/robot_nano_hand_teleop': PYTHONPATH=/home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/prefix_override:/home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/robot_nano_hand_teleop build --build-base /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build install --record /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/install.log --single-version-externally-managed
+[0.899s] running egg_info
+[0.900s] writing build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/PKG-INFO
+[0.900s] writing dependency_links to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/dependency_links.txt
+[0.900s] writing entry points to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/entry_points.txt
+[0.900s] writing requirements to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/requires.txt
+[0.900s] writing top-level names to build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/top_level.txt
+[0.902s] reading manifest file 'build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/SOURCES.txt'
+[0.904s] writing manifest file 'build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running build_py
+[0.904s] running install
+[0.904s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.904s]   warnings.warn(
+[0.904s] running install_lib
+[0.905s] running install_data
+[0.906s] copying urdf/robot_nano_hand_teleop.urdf.xml -> /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/share/robot_nano_hand_teleop
+[0.906s] running install_egg_info
+[0.907s] removing '/home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[0.917s] Copying build/robot_nano_hand_teleop/robot_nano_hand_teleop.egg-info to /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages/robot_nano_hand_teleop-0.0.0-py3.10.egg-info
+[0.917s] running install_scripts
+[0.934s] Installing state_publisher script to /home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/robot_nano_hand_teleop
+[0.934s] writing list of installed files to '/home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/install.log'
+[0.987s] Invoked command in '/home/didine/Bureau/projet/robot_nano_hand_teleop' returned '0': PYTHONPATH=/home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/prefix_override:/home/didine/Bureau/projet/robot_nano_hand_teleop/install/robot_nano_hand_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/robot_nano_hand_teleop build --build-base /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/build install --record /home/didine/Bureau/projet/robot_nano_hand_teleop/build/robot_nano_hand_teleop/install.log --single-version-externally-managed

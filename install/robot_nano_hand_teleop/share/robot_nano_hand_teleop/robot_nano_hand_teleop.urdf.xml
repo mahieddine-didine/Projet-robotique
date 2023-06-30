@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="robot_nano_hand_teleop">
+    <link name="base_link">
+        <visual>
+            <origin xyz="00 0" rpy="0 0 1.57"/>
+            <geometry>
+                <mesh filename="file:///home/didine/workspace/ros2_ws/src/robot_nano_hand_teleop/models/
+                robot_nano_hand_palm.stl" scale="1 1 1"/>
+            </geometry>
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <!--Palmlink -->
+    <!--Palmjoint-->
+    <joint name="base_palm_joint" type="revolute">
+        <origin xyz="0 0 0.132" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="palm_link"/>
+        <axis xyz="0 1 0" /> 
+        <limit effort="10" velocity="10" lower="0.0" upper="1.57"/>
+    </joint>
+    
+    <!--finger 1-->
+    <link name="finger1_1_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 1.57"/>
+            <geometry>
+                <mesh filename="file:///home/didine/workspace/ros2_ws/src/robot_nano_hand_teleop/models/
+                robot_nano_hand_palm.stl" scale="1 1 1"/>
+            </geometry>
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <joint name="palm_finger1_1_joint" type="revolute">
+        <origin xyz="0.015141 -0.034337 0.105315" rpy="${-241.826*M_PI/180} ${-96.5038*M_PI/180}"/>
+        <parent link="palm_link" />
+        <child link="finger_link" />
+        <axis xyz="0 0 1" />   
+        <limit effort="10" velocity="10" lower="0.0" upper="1.57"/>  
+    </joint>
+</robot>
