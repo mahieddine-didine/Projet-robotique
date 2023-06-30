@@ -1,0 +1,3 @@
+[console_scripts]
+state_publisher = robot_nano_hand_teleop.state_publisher:main
+
